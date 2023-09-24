@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <link rel="stylesheet" href="PaginaWeb.css">
+</head>
+<body>
+    <h1><b>Mi Pagina Web</b></h1>
+    <h2>Distintas funcionalidades:</h2>
+    <div class="wrapper">
+        <details>
+            <summary>
+                <h3>Como mandar un e-mail</h3>
+                <a href="mailto:{email}?subject={subject}&body={content}">
+                Mandar un e-mail</a><br>
+                <h3>Como llamar</h3>
+                <a href="tel:{phone}">
+                Llamar</a><br>
+                <h3>Como mandar un mensaje</h3>
+                <a href="sms:{phone}?body={content}">
+                Mandar un mensaje</a>
+            </summary>
+            <pre>
+                &lt;h3&gt;Como mandar un e-mail&lt;/h3&gt;
+                &lt;a href="mailto:{email}?subject={subject}&amp;body={content}"&gt;
+                Mandar un e-mail&lt;/a&gt;&lt;br&gt;
+                &lt;h3&gt;Como llamar&lt;/h3&gt;
+                &lt;a href="tel:{phone}"&gt;
+                Llamar&lt;/a&gt;&lt;br&gt;
+                &lt;h3&gt;Como mandar un mensaje&lt;/h3&gt;
+                &lt;a href="sms:{phone}?body={content}"&gt;
+                Mandar un mensaje&lt;/a&gt;                
+            </pre>
+        </details>
+        <details>
+            <summary>
+                <h3>Listas con comienzo en la posicion nº 10:</h3><br>
+                <ol start="10">
+                    <li>Opel</li>
+                    <li>Bugatti</li>
+                    <li>Lamborghini</li>
+                    <li>Volkswagen</li>
+                    <li>Tesla</li>
+                </ol>
+            </summary>
+            <pre>
+                &lt;ol start="10"&gt;
+                &lt;li&gt;Opel&lt;/li&gt;
+                &lt;li&gt;Bugatti&lt;/li&gt;
+                &lt;li&gt;Lamborghini&lt;/li&gt;;
+                &lt;li&gt;;Volkswagen&lt;/li&gt;
+                &lt;li&gt;Tesla&lt;/li&gt;
+                &lt;/ol&gt;
+            </pre>
+        </details>
+        <details>
+            <summary>
+                <h3>Elemento "meter":</h3>
+                <label for="value1">Low</label>
+                <meter id="value1" min="0" max="100" low="30" high="75" optimum="80" value="25"></meter>
+
+                <label for="value2">Medium</label>
+                <meter id="value2" min="0" max="100" low="30" high="75" optimum="80" value="50"></meter>
+
+                <label for="value3">High</label>
+                <meter id="value3" min="0" max="100" low="30" high="75" optimum="80" value="80"></meter>
+            </summary>
+            <pre>
+                &lt;label for="value1"&gt;Low&lt;/label&gt;
+                &lt;meter id="value1" min="0" max="100" low="30" high="75" optimum="80" value="25"&gt;&lt;/meter&gt;
+
+                &lt;label for="value2"&gt;Medium&lt;/label&gt;
+                &lt;meter id="value2" min="0" max="100" low="30" high="75" optimum="80" value="50"&gt;&lt;/meter&gt;
+
+                &lt;label for="value3"&gt;High&lt;/label&gt;
+                &lt;meter id="value3" min="0" max="100" low="30" high="75" optimum="80" value="80"&gt;&lt;/meter&gt;        
+            </pre>
+        </details>
+    </div>
+    <div class="wrapper">
+        <details>
+            <summary>
+                <h3>Desplegable con opciones:</h3><br>
+                <input list="items">
+  
+                <datalist id="items">
+                    <option value="Fernando Alonso">
+                    <option value="Max Verstappen">
+                    <option value="Sebastian Vettel">
+                    <option value="Lewis Hammilton">
+                    <option value="Carlos Sainz">
+                </datalist>
+            </summary>
+            <pre>
+                &lt;input list="items"&gt;
+
+                &lt;datalist id="items"&gt;
+                &lt;option value="Fernando Alonso"&gt;
+                &lt;option value="Max Verstappen"&gt;
+                &lt;option value="Sebastian Vettel"&gt;
+                &lt;option value="Lewis Hammilton"&gt;
+                &lt;option value="Carlos Sainz"&gt;
+                &lt;/datalist&gt;
+            </pre>
+        </details>
+    </div>
+</body>
+</html>
