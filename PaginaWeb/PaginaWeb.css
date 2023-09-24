@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding-left: 50px;
+}
+
+h3{
+    padding-left: 50px;
+}
+
+a{
+    padding-left: 50px;
+}
+
+ol{
+    padding-left: 74px;
+}
+
+.wrapper {
+    padding: 30px;
+    display: flex;
+  }
+  
+  details {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  summary {
+    cursor: pointer;
+  }
+   label{
+    display: block;
+   }
